@@ -1,0 +1,106 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(120deg, navy, rgb(229, 37, 37), navy);
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s ease infinite;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+header {
+        background-image: url('headbg.jpg');
+        background-size: cover; 
+        background-position:center; 
+        color: #FAF9F6;
+        padding: 1.5em;
+        text-align: center;
+}
+
+header h1 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 0.5em;
+    text-decoration: none;
+}
+
+/* Layout for Main Content */
+main {
+    display: flex;
+    gap: 2em;
+    padding: 2em;
+}
+
+/* Biodata Section - Left Column */
+#biodata {
+    flex: 1;
+    background-color: #100e09;
+    color: #FAF9F6;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #FAF9F6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+    border: 1px solid #FAF9F6;
+}
+
+table td {
+    padding: 0.5em;
+    border: 1px solid #FAF9F6;
+    color: #FAF9F6;
+}
+
+/* Right Column for Hobbies and Campus Life */
+.right-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    
+}
+
+.content-box-a {
+    background-color: #100e09;
+    color: #FAF9F6;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px #FAF9F6;
+}
+
+.content-box-b {
+    background-color: #100e09;
+    color: #FAF9F6;
+    padding: 0.5em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px #FAF9F6;
+}

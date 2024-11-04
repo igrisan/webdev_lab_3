@@ -3,74 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
-    
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <table border="1" style="width: 80%;"
-        <tr bgcolor="#c0cdf0">
-            <td >Name</td>
-            <td colspan="2">Ashraff Azhan</td>
-            <td><img src="photo.jpg" alt="My Photo" width="100px"></td>
-        </tr>
-        <tr>
-            <td>Date of birth</td>
-            <td colspan="5">30 July 2003</td>
-        </tr>
-        <tr>
-            <td>Religion</td>
-            <td colspan="5">Islam</td>
-        </tr>
-        <tr>
-            <td>Race</td>
-            <td colspan="5">Malay</td>
-        </tr>
-        <tr>
-            <td rowspan="4">Address</td>
-            <td>Street</td>
-            <td colspan="4">No 46 Jalan Cermai 2</td>
-        </tr>
-        <tr>
-            <td>Town</td>
-            <td colspan="4">Taman Kota Masai</td>
-        </tr>
-        <tr>
-            <td>District</td>
-            <td colspan="4">Pasir Gudang</td>
-        </tr>
-        <tr>
-            <td>State</td>
-            <td colspan="4">Johor</td>
-        </tr>
-        <tr>
-            <td rowspan="3">Contact</td>
-            <td>Mobile Phone</td>
-            <td colspan="4">+601165060730</td>
-        </tr>
-        <tr>
-            <td>Social Media</td>
-            <td colspan="4">@ashazhnn</td>
-        </tr>
-        <tr>
-            <td>Website</td>
-            <td colspan="4">https://github.com/igrisan</td>
-        </tr>
-        <tr>
-            <td>Course and Institution</td>
-            <td colspan="5">Software Engineering in UTHM</td>
-        </tr>
-        <tr>
-            <td>Programming skills</td>
-            <td colspan="5">C, Java, HTML</td>
-        </tr>
-        <tr>
-            <td>Personal Interest</td>
-            <td colspan="5">Fishing</td>
-        </tr>
-        <tr>
-            <td>Future plan in 2025</td>
-            <td colspan="5">Catch peacock bass</td>
-        </tr>
-    </table>
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+    </header>
+    
+    <main>
+        <section id="biodata" class="content-box-a">
+            <h2>Biodata</h2>
+            <table>
+                <tr><td>Name</td><td>Ashraff Azhan</td></tr>
+                <tr><td>Date of Birth</td><td>30 July 2003</td></tr>
+                <tr><td>Religion</td><td>Islam</td></tr>
+                <tr><td>Race</td><td>Malay</td></tr>
+                <tr><td>Address</td><td>No 46 Jalan Cermai 2, Taman Kota Masai, Pasir Gudang, Johor</td></tr>
+                <tr><td>Contact</td><td>+601165060730</td></tr>
+                <tr><td>Social Media</td><td>@ashazhnn</td></tr>
+                <tr><td>Website</td><td><a href="https://github.com/igrisan" target="_blank">GitHub Profile</a></td></tr>
+                <tr><td>Course and Institution</td><td>Software Engineering in UTHM</td></tr>
+                <tr><td>Programming Skills</td><td>C, Java, HTML, css</td></tr>
+                <tr><td>Personal Interest</td><td>Fishing</td></tr>
+                <tr><td>Future Plan (2025)</td><td>Catch peacock bass</td></tr>
+            </table>
+        </section>
+
+        <div class="right-column">
+            <section id="photo" class="content-box-b">
+                <img src="photo2.jpeg" alt="My Photo" width="100px">
+                <img src="photo3.jpeg" alt="My Photo" width="100px">
+                <img src="photo4.jpeg" alt="My Photo" width="100px">
+                <img src="photo5.jpeg" alt="My Photo" width="100px">
+                <img src="photo6.jpeg" alt="My Photo" width="100px">
+            </section>
+
+            <section id="hobbies" class="content-box-a">
+                <h2>Hobbies</h2>
+                <ul>
+                    <li>Fishing</li>
+                    <li>Traveling</li>
+                    <li>Photography (Taking my friends photo)</li>
+                </ul>
+            </section>
+            
+            <section id="campus-life" class="content-box-a">
+                <h2>Campus Life</h2>
+                <p>During my time at UTHM, I’ve had many memorable experiences, including:</p>
+                <ul>
+                    <li>Attending tech conferences and learning about the latest innovations in software development.</li>
+                    <li>Industrial visits that gave me hands-on experience with various technologies.</li>
+                    <li>Participating in cultural festivals and campus celebrations with friends.</li>
+                    <li>Taking part in group projects that taught me the importance of teamwork and collaboration.</li>
+                </ul>
+            </section>
+        </div>
+    </main>
 </body>
 </html>
